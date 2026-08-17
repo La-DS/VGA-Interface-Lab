@@ -22,6 +22,9 @@ The `pix_pusher` takes in the raw data from the `picture` module and outputs the
 In addition to the files used for the modules, the repository also contains the following:
 - `BITSTREAM.bit`: A ready bitstream file that can be written to a legacy Zybo using AMD Vivado to test the VGA interface
 - `Lab4_constraints_zybo_old_board.xdc`: A constraints file that defines which pins of the FPGA are used
+- `vga_ctrl_tb.vhd`: Testbench to verify functionality of the `vga_ctrl` module
+- `image_top.vhd`: Top-level module containing all other modules
+- `image_tb.vhd`: Testbench to verify total functionality of the top-level design 
 
 ## Top-level Schematic
 
