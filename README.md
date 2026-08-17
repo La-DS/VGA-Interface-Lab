@@ -1,6 +1,6 @@
 # VGA-Interface-Lab
 
-<img src="https://github.com/La-DS/VGA-Interface-Lab/blob/main/Demo/Successful%20Output.png" width="100">
+<img src="https://github.com/La-DS/VGA-Interface-Lab/blob/main/Demo/Successful%20Output.png" width="600">
 
 ## Overview
 This was one of the labs from my Embedded Systems class. The goal of the lab was to create a working VGA interface to display a static image on an LCD monitor. The image is a Rutgers logo cropped to 480x480 pixels using a provided Matlab program. Note that when testing this with a VGA monitor, it may be necessary to manually adjust the Pixel Clock and Phase settings to get a clean image.
